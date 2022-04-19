@@ -30,6 +30,7 @@ func main() {
 		nil,     // arguments
 	)
 	failOnError(err, "Failed to declare a queue")
+	log.Printf("Binding queue: %s", q.Name)
 
 	msgs, err := ch.Consume(
 		q.Name, // queue

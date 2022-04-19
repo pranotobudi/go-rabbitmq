@@ -1,5 +1,7 @@
 package main
 
+// reference: https://www.rabbitmq.com/tutorials/tutorial-one-go.html
+
 import (
 	"log"
 

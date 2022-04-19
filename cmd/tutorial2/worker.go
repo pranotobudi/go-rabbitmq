@@ -1,5 +1,7 @@
 package main
 
+// reference: https://www.rabbitmq.com/tutorials/
+
 import (
 	"bytes"
 	"log"
